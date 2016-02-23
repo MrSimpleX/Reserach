@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 	Subscriber<String> strSubscriber = new Subscriber<String>() {
 		@Override
 		public void onCompleted() {
-
+			//完成
 		}
 
 		@Override

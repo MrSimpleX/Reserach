@@ -11,7 +11,23 @@
     tools:context="com.cnaidai.rxjavademo.MainActivity">
 
     <TextView
+        android:id="@+id/tv_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
+
+    <Button
+        android:id="@+id/btm_send"
+        android:layout_width="match_parent"
+        android:layout_below="@id/tv_info"
+        android:layout_height="wrap_content"
+        android:text="发送Create方式"/>
+
+    <Button
+        android:id="@+id/btm_send_just"
+        android:layout_width="match_parent"
+        android:layout_below="@id/btm_send"
+        android:layout_height="wrap_content"
+        android:text="发送Just方式"/>
+
 </RelativeLayout>
